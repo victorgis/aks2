@@ -1,0 +1,124 @@
+
+
+/* Header Section =============*/
+#header{
+background-color: #5c755e;
+margin:10px;
+height:90px;
+border-radius:5px;
+}
+
+/*Menu section ==========*/
+
+
+ul{
+	list-style-type:none;
+	text-align:center;
+	background-color:#000;
+	margin:10px;
+	border-radius:5px;
+	padding:5px;
+	
+}
+ul li {
+	display:inline;
+}
+ul li a{
+	text-decoration:none;
+	font-family:Arial;
+	padding: .2em 1em;
+	color:#fff;
+	background-color:#000;
+}
+ul li a:hover{
+	background-color:green;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}
+
+.sideleft{
+background-color:#e5e4d7;
+margin:0px 10px 0px 10px;
+border-radius:5px;
+padding:20px;
+font-size:105%;
+float:left;
+width:260px;
+
+clear:left;
+/*it makes every stay in a top down way not right-left*/
+/*when you float, you must give width,and abovethe main div, and consequently left or right margin*/
+}
+p{
+	background-color:white;
+	padding:5px;
+	text-align:center;
+	font-family:Helvetical;
+	line-height:1.5em;
+}
+h2{
+	text-align:center;
+}
+
+#piechart{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#box{
+	background-color:white;
+	border-radius:5px;
+	
+}
+
+#map{
+	background-color:#e5e4d7;
+margin:10px 10px 10px 10px;
+border-radius:5px;
+padding:20px;
+height:800px;
+}
+
+
+
+/*Heading section*/
+h1{
+	font-size:120%;
+	color:#ce282e;
+}
+h2{
+	font-size:120%;
+	color:darkblue;
+}
+h3{
+	font-size:250%;
+	text-align:center;
+	color:#e5e4d7;
+	font-family:"Century Gothic";
+	margin:0px;
+
+	position:relative;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+.sub-menu-1{
+	display:none;
+	display:block;
+	position:absolute;
+}
+.
+
+
+
+
+
+
+
+
