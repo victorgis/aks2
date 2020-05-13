@@ -167,6 +167,11 @@ font-size:90%;
 		height:800px;
 	}
 }
+@media (max-width:600px){
+	.sideleft, .sideright{
+		display:none;
+	}
+}
 
 
 
