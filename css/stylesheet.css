@@ -2,8 +2,8 @@
 
 /* Header Section =============*/
 #header{
-background-color: #5c755e;
-margin:10px;
+background-color: #19152a;
+
 height:90px;
 border-radius:5px;
 }
@@ -31,7 +31,8 @@ ul li a{
 	background-color:#000;
 }
 ul li a:hover{
-	background-color:green;
+	color:black;
+	background-color:white;
 }
 ul li ul li{
 	display:none;
@@ -44,24 +45,59 @@ ul li:hover ul li{
 background-color:#e5e4d7;
 margin:0px 10px 0px 10px;
 border-radius:5px;
-padding:20px;
+padding:0px 10px 10px 10px;
 font-size:105%;
 float:left;
-width:260px;
+width:250px;
+
 
 clear:left;
 /*it makes every stay in a top down way not right-left*/
-/*when you float, you must give width,and abovethe main div, and consequently left or right margin*/
+/*when you float, you must give width,and abovethe main /div, and consequently left or right margin*/
 }
-p{
-	background-color:white;
+.sideright{
+background-color:#e5e4d7;
+margin:0px 10px 0px 10px;
+border-radius:5px;
+padding:0px 10px 10px 10px;
+font-size:105%;
+float:right;
+width:250px;
+
+
+clear:right;
+/*it makes every stay in a top down way not right-left*/
+/*when you float, you must give width,and abovethe main /div, and consequently left or right margin*/
+}
+.firstus{
+	background-color:#fff;
 	padding:5px;
 	text-align:center;
 	font-family:Helvetical;
 	line-height:1.5em;
+	margin:10px 0px 10px 0px;
+}
+
+.secondus{
+	background-color:#fff;
+	padding:5px;
+	text-align:center;
+	font-family:Helvetical;
+	line-height:1.5em;
+	margin:10px 0px 10px 0px;
+}
+.third{
+	background-color:#fff;
+	padding:5px;
+	text-align:center;
+	font-family:Helvetical;
+	line-height:1.5em;
+	margin:10px 0px 10px 0px;
+	
 }
 h2{
 	text-align:center;
+	font-size:20px;
 }
 
 #piechart{
@@ -77,11 +113,12 @@ h2{
 }
 
 #map{
-	background-color:#e5e4d7;
+background-color:#e5e4d7;
 margin:10px 10px 10px 10px;
 border-radius:5px;
 padding:20px;
-height:800px;
+
+height:600px;
 }
 
 
@@ -93,7 +130,7 @@ h1{
 }
 h2{
 	font-size:120%;
-	color:darkblue;
+	color:19152a;
 }
 h3{
 	font-size:250%;
@@ -101,21 +138,35 @@ h3{
 	color:#e5e4d7;
 	font-family:"Century Gothic";
 	margin:0px;
-
+	
 	position:relative;
 	top:50%;
 	-webkit-transform:translateY(-50%);
 	-ms-transform:translateY(-50%);
 	transform:translateY(-50%);
 }
-.sub-menu-1{
-	display:none;
-	display:block;
-	position:absolute;
+
+
+
+
+/*footer page=========*/
+#footer{
+background-color:#19152a;
+margin:10px;
+height:60px;
+clear:both;
+border-radius:5px;
+color:#efe5d0;
+text-align:center;
+padding:15px;
+font-size:90%;
 }
-.
 
-
+@media (min-height:600px){
+	#map{
+		height:800px;
+	}
+}
 
 
 
