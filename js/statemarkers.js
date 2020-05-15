@@ -59,14 +59,14 @@
 			iconUrl: href="images/ibesikpo.png",			
 			iconSize: [50] //size of the icon
 			})
-			var marker = L.marker([4.914736056, 7.955492418], {icon:ibesikpo}).addTo(map); //Ibesikpo Asutan
+			var marker = L.marker([4.959842, 7.949129], {icon:ibesikpo}).addTo(map); //Ibesikpo Asutan
 			//marker.bindPopup('<b>Sarajevo</b>');
 		
 		var ibiono = L.icon({
 			iconUrl: href="images/ibiono.png",			
 			iconSize: [73] //size of the icon
 			})
-			var marker = L.marker([5.207107921, 7.884758486], {icon:ibiono}).addTo(map); //Ibiono Ibom
+			var marker = L.marker([5.260606, 7.892022], {icon:ibiono}).addTo(map); //Ibiono Ibom
 			//marker.bindPopup('<b>Sarajevo</b>');
 		
 		var ika = L.icon({
@@ -80,7 +80,7 @@
 			iconUrl: href="images/ikono.png",			
 			iconSize: [40] //size of the icon
 			})
-			var marker = L.marker([5.211554742, 7.783431835], {icon:ikono}).addTo(map); //Ikono
+			var marker = L.marker([5.230149, 7.802554], {icon:ikono}).addTo(map); //Ikono
 			//marker.bindPopup('<b>Sarajevo</b>');
 		
 		var ikotabasi = L.icon({
@@ -157,7 +157,7 @@
 			iconUrl: href="images/okobo.png",			
 			iconSize: [40] //size of the icon
 			})
-			var marker = L.marker([4.821428547, 8.13382422], {icon:okobo}).addTo(map); //Okobo
+			var marker = L.marker([4.870375, 8.160425], {icon:okobo}).addTo(map); //Okobo
 			//marker.bindPopup('<b>Sarajevo</b>');
 		
 		var onna = L.icon({

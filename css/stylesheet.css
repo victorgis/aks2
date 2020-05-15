@@ -1,9 +1,6 @@
-
-
 /* Header Section =============*/
-#header{
+.header{
 background-color: #19152a;
-
 height:90px;
 border-radius:5px;
 }
@@ -117,7 +114,6 @@ background-color:#e5e4d7;
 margin:10px 10px 10px 10px;
 border-radius:5px;
 padding:20px;
-
 height:600px;
 }
 
@@ -137,17 +133,15 @@ h3{
 	text-align:center;
 	color:#e5e4d7;
 	font-family:"Century Gothic";
-	margin:0px;
+	margin:10px;
+
 	
-	position:relative;
+	Position:relative;
 	top:50%;
 	-webkit-transform:translateY(-50%);
 	-ms-transform:translateY(-50%);
 	transform:translateY(-50%);
 }
-
-
-
 
 /*footer page=========*/
 #footer{
@@ -170,11 +164,13 @@ font-size:90%;
 @media (max-width:700px){
 	.sideleft, .sideright{
 		display:none;
+		height:600px;
 	}
 }
 @media (max-width:400px){
 	.sideleft, .sideright{
 		display:none;
+		height:500px;
 	}
 }
 
